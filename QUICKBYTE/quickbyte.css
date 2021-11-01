@@ -16,7 +16,7 @@ body{
     height: 100px;
     position: fixed;
     right: 0px;
-    top: 0px;
+    top: 1rem;
     border: 1px bold #49ed10;
 }
 
@@ -41,6 +41,11 @@ h1:hover{
     font-size: xx-large;
 }
 
+
+.container{
+    display: flex;
+    flex-flow: row wrap;
+}
 
 .card{
     width: 250px;
